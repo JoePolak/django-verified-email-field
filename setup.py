@@ -14,10 +14,6 @@ setup(
     license         = 'BSD',
     url             = 'https://github.com/misli/django-verified-email-field',
     packages        = find_packages(),
-    include_package_data=True,
-    package_data={
-          'verified_email_field': ['*.po', '*.mo', '*.js', '*.html', '*.txt'],
-    },
     install_requires=[
     ],
     classifiers     = [
